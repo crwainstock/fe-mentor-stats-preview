@@ -25,6 +25,9 @@ body {
   margin-top: 1rem;
   font-size: 6.5vw;
 }
+.highlight-text {
+  color: hsl(277, 64%, 61%);
+}
 .text-container h3 {
   color: hsla(0, 0%, 100%, 0.75);
 }
