@@ -3,6 +3,9 @@ body {
   /* font-family: 'Lexend Deca', sans-serif; */
   background-color: #0a0d1a;
 }
+.preview-container {
+  background-color: hsl(244, 38%, 16%);
+}
 
 .text-container h2 {
   color: hsl(0, 0%, 100%);
@@ -20,4 +23,5 @@ body {
 footer {
   margin-top: 3rem;
   text-align: center;
+  color: hsl(0, 0%, 100%);
 }
