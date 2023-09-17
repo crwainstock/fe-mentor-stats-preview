@@ -4,6 +4,19 @@ body {
   background-color: #0a0d1a;
 }
 
+.text-container h2 {
+  color: hsl(0, 0%, 100%);
+}
+.text-container h3 {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.stats-container h2 {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+.stats-container p {
+    hsla(0, 0%, 100%, 0.75);
+}
+
 footer {
   margin-top: 3rem;
   text-align: center;
