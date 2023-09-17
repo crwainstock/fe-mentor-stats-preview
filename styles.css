@@ -14,7 +14,7 @@ body {
   color: hsla(0, 0%, 100%, 0.6);
 }
 .stats-container p {
-    hsla(0, 0%, 100%, 0.75);
+  color: hsla(0, 0%, 100%, 0.75);
 }
 
 footer {
