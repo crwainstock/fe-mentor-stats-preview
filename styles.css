@@ -63,10 +63,17 @@ body {
   color: hsla(0, 0%, 100%, 0.6);
   margin-top: 0rem;
   margin-bottom: 0rem;
+  padding-bottom: 1.6rem;
 }
 .stats-container p {
   color: hsla(0, 0%, 100%, 0.75);
   margin-top: 0rem;
+}
+.single-stat-2 {
+  margin-top: 2rem;
+}
+.single-stat-2 p {
+  margin-bottom: 1.7rem;
 }
 
 footer {
