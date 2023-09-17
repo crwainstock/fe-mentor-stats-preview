@@ -11,13 +11,15 @@ body {
   max-width: 80%;
   margin: 0 auto; /* Center the grid container */
   margin-top: 3.1rem;
-  /* padding: 20px; 
-  box-sizing: border-box;  */
 }
 .preview-container img {
   max-width: 100%;
 }
-
+.text-container {
+  text-align: center;
+  padding: 1.5rem;
+  box-sizing: border-box;
+}
 .text-container h2 {
   color: hsl(0, 0%, 100%);
 }
