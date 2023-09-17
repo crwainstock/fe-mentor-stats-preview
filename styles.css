@@ -17,12 +17,14 @@ body {
 }
 .img-container {
   max-width: 100%;
+  position: relative;
 }
 .img-container::before {
   content: "";
   position: absolute;
-  width: 77%;
+  width: 100%;
   height: 100%;
+  /* Something needs to be adjusted here so the overlay stays on the image appropriately. */
   background-color: hsl(277, 64%, 61%, 50%);
   z-index: 1;
 }
