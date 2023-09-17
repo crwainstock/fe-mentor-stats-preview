@@ -41,7 +41,7 @@ body {
   color: hsl(0, 0%, 100%);
   margin-top: 0.6rem;
   font-size: 6.5vw;
-  margin-bottom: 1rem;
+  margin-bottom: 0.85rem;
 }
 .highlight-text {
   color: hsl(277, 64%, 61%);
@@ -58,19 +58,23 @@ body {
 }
 .stats-container {
   text-align: center;
+  padding-bottom: 1.6rem;
 }
 .stats-container h2 {
   color: hsla(0, 0%, 100%, 0.6);
   margin-top: 0rem;
-  margin-bottom: 0rem;
-  padding-bottom: 1.6rem;
+  margin-bottom: 0.4rem;
 }
 .stats-container p {
   color: hsla(0, 0%, 100%, 0.75);
   margin-top: 0rem;
+  text-transform: uppercase;
+  font-size: 3.2vw;
+  font-family: "Lexend Deca", sans-serif;
 }
+
 .single-stat-2 {
-  margin-top: 2rem;
+  margin-top: 1.7rem;
 }
 .single-stat-2 p {
   margin-bottom: 1.7rem;
