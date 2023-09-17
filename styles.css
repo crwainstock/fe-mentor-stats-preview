@@ -47,6 +47,8 @@ body {
 }
 .text-container h3 {
   color: hsla(0, 0%, 100%, 0.75);
+  font-size: 3.5vw;
+  font-weight: 400;
 }
 .stats-container h2 {
   color: hsla(0, 0%, 100%, 0.6);
