@@ -56,11 +56,17 @@ body {
 .spacer {
   word-spacing: 11px;
 }
+.stats-container {
+  text-align: center;
+}
 .stats-container h2 {
   color: hsla(0, 0%, 100%, 0.6);
+  margin-top: 0rem;
+  margin-bottom: 0rem;
 }
 .stats-container p {
   color: hsla(0, 0%, 100%, 0.75);
+  margin-top: 0rem;
 }
 
 footer {
