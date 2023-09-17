@@ -5,6 +5,17 @@ body {
 }
 .preview-container {
   background-color: hsl(244, 38%, 16%);
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  max-width: 80%;
+  margin: 0 auto; /* Center the grid container */
+  margin-top: 3.1rem;
+  /* padding: 20px; 
+  box-sizing: border-box;  */
+}
+.preview-container img {
+  max-width: 100%;
 }
 
 .text-container h2 {
