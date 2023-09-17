@@ -23,9 +23,9 @@ body {
   content: "";
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 98%;
   /* Something needs to be adjusted here so the overlay stays on the image appropriately. */
-  background-color: hsl(277, 64%, 61%, 50%);
+  background-color: hsl(277, 64%, 61%, 40%);
   z-index: 1;
 }
 .text-container {
@@ -35,7 +35,7 @@ body {
 }
 .text-container h2 {
   color: hsl(0, 0%, 100%);
-  margin-top: 1rem;
+  margin-top: 0.6rem;
   font-size: 6.5vw;
 }
 .highlight-text {
