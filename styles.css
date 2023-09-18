@@ -93,7 +93,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
-    max-width: 80%;
+    max-width: 86%;
     margin: 0 auto; /* Center the grid container */
     margin-top: 3.1rem;
     border-radius: 8px;
@@ -109,6 +109,7 @@ footer {
     grid-row: 1 / 3;
     place-self: center;
     border-radius: 0 8px 8px 0;
+    height: 100%;
   }
   .img-container::before {
     height: 100%;
@@ -116,6 +117,7 @@ footer {
   }
   .preview-container img {
     border-radius: 0 8px 8px 0;
+    height: 100%;
   }
   .text-container {
     text-align: left;
