@@ -53,6 +53,8 @@ The brief also provided two different images (slightly different sizes, I believ
       </div>
 ```
 
+My first thought when tasked with using two different images for the different screen sizes is to use conditional rendering with JavaScript. But, this build is just HTML and CSS, so I wanted to try to implement it without using JavaScript.
+
 ## 👀 Demo & Live Version
 
 Check out the live version of this component [here](https://mellow-faun-84807a.netlify.app/).
