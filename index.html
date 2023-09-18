@@ -23,10 +23,16 @@
   <body>
     <div class="preview-container">
       <div class="img-container">
-        <img
-          alt="people working at a desk"
-          src="./Project Requirements/images/image-header-mobile.jpg"
-        />
+        <picture>
+          <source
+            media="(min-width:660px)"
+            srcset="./Project Requirements/images/image-header-desktop.jpg"
+          />
+          <img
+            src="./Project Requirements/images/image-header-mobile.jpg"
+            alt="people working at a desk"
+          />
+        </picture>
       </div>
       <div class="content-container">
         <div class="text-container">
