@@ -85,3 +85,25 @@ footer {
   text-align: center;
   color: hsl(0, 0%, 100%);
 }
+
+/* Larger Screens */
+
+@media only screen and (min-width: 660px) {
+  .preview-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    max-width: 80%;
+    margin: 0 auto; /* Center the grid container */
+    margin-top: 3.1rem;
+    border-radius: 8px;
+  }
+  .content-container {
+    display: grid;
+    grid-column: 1 / 2;
+  }
+  .img-container {
+    display: grid;
+    grid-column: 2 / 3;
+  }
+}
