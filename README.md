@@ -36,7 +36,7 @@ First, I used the [::before pseudo-element](https://developer.mozilla.org/en-US/
 
 It took a little trial and error to get the overlay as close as it is to the image in the brief, and I think the color is still slightly lighter than it needs to be. But I'm happy with how it turned out, overall.
 
-The brief also provided two different images (slightly different sizes, I believe) for mobile and desktop views. In order to use both images, I tried to use the [<picture> and <source> elements in HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture), but I didn't quite get it to work as intended yet.
+The brief also provided two different images (slightly different sizes, I believe) for mobile and desktop views. In order to use both images, I tried to use the [picture and source elements in HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture), but I didn't quite get it to work as intended yet.
 
 ```
       <div class="img-container">
