@@ -117,4 +117,9 @@ footer {
   .preview-container img {
     border-radius: 0 8px 8px 0;
   }
+  .text-container h2 {
+    margin-top: 0.6rem;
+    font-size: 3vw;
+    margin-bottom: 0.85rem;
+  }
 }
