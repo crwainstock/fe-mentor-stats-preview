@@ -62,7 +62,7 @@ body {
   padding-bottom: 1.6rem;
 }
 .stats-container h2 {
-  color: hsla(0, 0%, 100%, 0.6);
+  color: hsl(0, 0%, 100%);
   margin-top: 0rem;
   margin-bottom: 0.4rem;
 }
@@ -145,7 +145,8 @@ footer {
 
   .stats-container {
     text-align: left;
-    padding-bottom: 1.6rem;
+    padding: 1.6rem;
+    padding-top: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -161,11 +162,17 @@ footer {
     font-size: 1vw;
     font-family: "Lexend Deca", sans-serif;
   }
-
+  .single-stat-1 {
+    margin-left: 0.7rem;
+  }
   .single-stat-2 {
-    margin-top: 1.7rem;
+    margin-top: 0rem;
+    margin-left: 0.5rem;
   }
   .single-stat-2 p {
     margin-bottom: 1.7rem;
+  }
+  .single-stat-3 {
+    padding-right: 7.7rem;
   }
 }
